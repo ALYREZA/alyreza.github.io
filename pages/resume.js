@@ -1,6 +1,7 @@
 import Header from "../components/sections/Header";
 import Details from "../components/sections/Details";
 import OneItem from "../components/sections/OneItem";
+import MultiItems from "../components/sections/MultiItems";
 
 const Resume = () => {
   return (
@@ -12,6 +13,7 @@ const Resume = () => {
           <Details />
           <OneItem />
           <OneItem label={"shoma"} description={"somthing"} />
+          <MultiItems />
         </div>
       </div>
     </>
